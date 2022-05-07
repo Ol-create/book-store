@@ -1,6 +1,49 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Name : BookStore
+
+> The Bookstore is a website similar to the "Awesome Books" website built in the previous module. I will create an MVP version of it that allows you to::
+
+- Display a list of books.
+- Add a book.
+- Remove a selected book.
+
+You can find live project at https://Ol-create.github.io/book-store
+
+## Built With
+
+- React JS with Redux
+- JSX
+- JavaScripts
+- GitFlow
+
+## Live Demo (Link for My BookStore Project)
+
+### Github
+
+Take a look at the BookStore page [BookStore@GitHub](https://Ol-create.github.io/book-store)
+
+## Development set up
+
+Clone Repository using
+
+`git clone git@github.com:Ol-create/book-store.git`
+
+OR using HTTPS
+
+`git clone https://github.com/Ol-create/book-store.git`
+
+move into project directory
+
+`cd bookstore-react`
+
+Install Project dependancies using `NPM`
+
+`npm install`
+
+launch project locally with
+
+`npm start`
 
 ## Available Scripts
 
@@ -39,32 +82,24 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Oluyemi Paul**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [GitHub: Ol-create](https://github.com/Ol-create)
+- [Twitter: OluyemiPaul99](https://twitter.com/OluyemiPaul99)
+- [LinkedIn: paul-oluyemi-193966ab](https://www.linkedin.com/in/paul-oluyemi-193966ab)
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues, and feature requests are welcome!
 
-### Analyzing the Bundle Size
+Feel free to check the [issues page](https://github.com/Ol-create/Food-store-app/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📝 License
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
