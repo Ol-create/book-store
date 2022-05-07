@@ -1,0 +1,113 @@
+body {
+  background: #eee;
+  margin: 0;
+}
+
+.container {
+  margin: 25px;
+}
+
+header {
+  background: #fff;
+  padding: 0 25px;
+  display: flex;
+  height: 5.938rem;
+
+  h1 {
+    margin: auto 0;
+    color: #006db1;
+  }
+}
+
+.navBar {
+  padding: 0;
+  margin: auto 0.375rem;
+
+  a {
+    margin-left: 2.563rem;
+    text-decoration: none;
+    color: rgb(37, 34, 34);
+  }
+}
+
+.logIn {
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.bookList {
+  padding: 0;
+  list-style: none;
+}
+
+.bookElement {
+  padding: 10px 30px;
+  border: solid rgb(153, 151, 151) 1px;
+  background: rgb(218, 213, 213);
+  display: flex;
+  justify-content: space-between;
+
+  h3 {
+    margin: 0;
+  }
+
+  small {
+    color: #1086c2;
+  }
+}
+
+.progress {
+  margin-left: auto;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  p {
+    margin: 0;
+    font-size: 2rem;
+  }
+}
+
+.bookEdit {
+  display: flex;
+  list-style: none;
+  padding: 10px 0 0;
+
+  li {
+    padding: 0 8px;
+    border-right: solid #ddd 2px;
+    color: #0b77ad;
+  }
+
+  li:first-of-type {
+    padding-left: 0;
+  }
+
+  li:last-of-type {
+    border-right: none;
+  }
+
+  li:hover {
+    cursor: pointer;
+  }
+}
+
+.bookInfo {
+  padding-left: 25px;
+  border-left: solid #ddd 1px;
+
+  small {
+    color: #6f6f6f;
+    font-size: 0.75rem;
+  }
+
+  p {
+    margin-top: 0;
+  }
+}
+
+.addBook {
+  border-top: solid #ccc 1px;
+}
