@@ -17,7 +17,7 @@ const BookElement = (props) => {
       <div className="progress">
         <div>O</div>
         <div>
-          <p>64%</p>
+          <p>70%</p>
           <small>Completed</small>
         </div>
       </div>
