@@ -11,3 +11,16 @@ export const addBook = (title) => ({
 	type: REMOVEBOOK,
 	book: id,
   })
+
+  const reducer = (state = initialState, action) => {
+	switch (action.type) {
+	  case ADDBOOK:
+		return [...state, action.book];
+	  case REMOVEBOOK:
+		return state.filter((book, index) => index !== action.book);
+	  default:
+		return state;
+	}
+  };
+
+  export default reducer;
