@@ -6,3 +6,8 @@ export const addBook = (title) => ({
 	type: ADDBOOK,
 	book: { title },
   });
+
+  export const removeBook = (id) => ({
+	type: REMOVEBOOK,
+	book: id,
+  })
