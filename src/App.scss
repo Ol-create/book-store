@@ -76,6 +76,16 @@ header {
   list-style: none;
   padding: 10px 0 0;
 
+  button {
+    background: none;
+    border: none;
+    color: #54acd7;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
   li {
     padding: 0 8px;
     border-right: solid #ddd 2px;
