@@ -24,3 +24,5 @@ const AddBook = () => {
     </form>
   );
 };
+
+export default AddBook;
