@@ -6,8 +6,6 @@ const initialState = [
   { id: '001', title: 'Luna', author: 'Rony' },
   { id: '002', title: 'One Stept Ahead', author: 'David Sally' },
 ];
-
-
 export const addBook = (title, author) => ({
   type: ADDBOOK,
   book: { id: uuidv4(), title, author },
