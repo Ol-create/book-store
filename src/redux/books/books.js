@@ -14,12 +14,12 @@ export const removeBook = (id) => ({
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
-	case ADDBOOK:
-    return [...state, action.book];
-	case REMOVEBOOK:
-    return state.filter((book, index) => index !== action.book);
-	default:
-    return state;
+    case ADDBOOK:
+      return [...state, action.book];
+    case REMOVEBOOK:
+      return state.filter((book, index) => index !== action.book);
+    default:
+      return state;
   }
 };
 
