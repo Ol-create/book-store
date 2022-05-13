@@ -10,6 +10,7 @@ const BookElement = (props) => {
   const removeHandler = (e) => {
     dispatch(removeBook(e.target.id));
   };
+  
   return (
     <li className="bookElement">
       <div>

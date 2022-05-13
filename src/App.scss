@@ -12,10 +12,10 @@ header {
   padding: 0 25px;
   display: flex;
   height: 5.938rem;
-
+  
   h1 {
     margin: auto 0;
-    color: #006db1;
+    color: #0088de;
   }
 }
 
@@ -26,7 +26,7 @@ header {
   a {
     margin-left: 2.563rem;
     text-decoration: none;
-    color: rgb(37, 34, 34);
+    color: #000;
   }
 }
 
@@ -43,8 +43,8 @@ header {
 
 .bookElement {
   padding: 10px 30px;
-  border: solid rgb(153, 151, 151) 1px;
-  background: rgb(218, 213, 213);
+  border: solid #ddd 1px;
+  background: #fff;
   display: flex;
   justify-content: space-between;
 
@@ -53,7 +53,7 @@ header {
   }
 
   small {
-    color: #1086c2;
+    color: #4e9fc7;
   }
 }
 
@@ -89,7 +89,7 @@ header {
   li {
     padding: 0 8px;
     border-right: solid #ddd 2px;
-    color: #0b77ad;
+    color: #54acd7;
   }
 
   li:first-of-type {
