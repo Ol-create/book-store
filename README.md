@@ -15,7 +15,6 @@ You can find live project at https://Ol-create.github.io/book-store
 - React JS with Redux
 - JSX
 - JavaScripts
-- Redux
 - GitFlow
 
 ## Live Demo (Link for My BookStore Project)
