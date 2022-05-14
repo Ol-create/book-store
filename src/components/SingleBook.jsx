@@ -1,9 +1,11 @@
+/*   eslint linebreak-style: ["error", "windows"]   */
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { removeBook } from '../redux/books/books';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircle } from '@fortawesome/free-regular-svg-icons';
+import { removeBook } from '../redux/books/books';
 
 const BookElement = (props) => {
   const { title, author, id } = props;
@@ -16,7 +18,7 @@ const BookElement = (props) => {
   return (
     <li className="bookElement">
       <div>
-      <p className="category">Unsorted</p>
+        <p className="category">Unsorted</p>
         <h3>{title}</h3>
         <small>{author}</small>
         <ul className="bookEdit">
@@ -26,9 +28,9 @@ const BookElement = (props) => {
         </ul>
       </div>
       <div className="progress">
-      <div><FontAwesomeIcon icon={faCircle} size="4x" className="load" /></div>
+        <div><FontAwesomeIcon icon={faCircle} size="4x" className="load" /></div>
         <div>
-        <p>0%</p>
+          <p>0%</p>
           <small>Completed</small>
         </div>
       </div>
