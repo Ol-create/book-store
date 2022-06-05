@@ -1,3 +1,5 @@
+/*   eslint linebreak-style: ["error", "windows"]  */
+
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { checkStatus } from '../redux/categories/categories';

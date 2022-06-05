@@ -1,11 +1,17 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
+/* eslint linebreak-style: ["error", "windows"] */
+
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import BookElement from './SingleBook';
 import AddBook from './AddBook';
+import { fetchBooks } from '../redux/books/books';
 
 const Books = () => {
+  const dispatch = useDispatch();
   const bookList = useSelector((store) => store.books);
-  console.log(bookList);
+  useEffect(() => {
+    dispatch(fetchBooks());
+  }, []);
   return (
     <div>
       <ul className="bookList">
