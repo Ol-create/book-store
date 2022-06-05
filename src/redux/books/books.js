@@ -1,3 +1,4 @@
+
 import { v4 as uuidv4 } from 'uuid';
 
 const api = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/GGI7t3uPhMwUj8R3YHDl/books';
@@ -6,6 +7,14 @@ const ADDBOOK = 'bookstore/books/ADDBOOK';
 const REMOVEBOOK = 'bookstore/books/REMOVEBOOK';
 const initialState = [];
 
+export const addBook = (title) => ({
+  type: ADDBOOK,
+  book: { title },
+});
+
+export const removeBook = (id) => ({
+  type: REMOVEBOOK,
+  book: id,
 const apiAddBook = async (id, title, author) => {
   const add = await fetch(api, {
     method: 'POST',
@@ -84,7 +93,7 @@ const reducer = (state = initialState, action) => {
     case ADDBOOK:
       return [...state, action.book];
     case REMOVEBOOK:
-      return state.filter((book) => book.id !== action.id);
+      return state.filter((book, index) => index !== action.book);
     case FETCHBOOKS:
       return action.newState;
     default:
