@@ -15,6 +15,8 @@ export const addBook = (title) => ({
 export const removeBook = (id) => ({
   type: REMOVEBOOK,
   book: id,
+});
+
 const apiAddBook = async (id, title, author) => {
   const add = await fetch(api, {
     method: 'POST',
